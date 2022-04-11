@@ -76,7 +76,7 @@ git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf && ~/.fzf/install
 
 1. To the question, "Do you want to enable fuzzy auto-completion", answer "y".
 1. To the question, "Do you want to enable key bindings", answer "y".
-1. To the question, "Do you want ot update your shell coinfiguration files?", answer "n" because the fzf configuration is already present in the `~/.zshrc` you copied.
+1. To the question, "Do you want ot update your shell configuration files?", answer "n" because the fzf configuration is already present in the `~/.zshrc` you copied.
 
 ## Install VSCode
 
