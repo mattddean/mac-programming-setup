@@ -12,7 +12,7 @@ xcode-select --install
 
 https://github.com/tonsky/FiraCode
 
-> Double-click on each font to install it
+> Unzip and double-click on each font in the tff directory to install them all
 
 ## Install iTerm2
 
