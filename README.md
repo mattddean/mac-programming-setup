@@ -82,7 +82,7 @@ git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf && ~/.fzf/install
 
 https://code.visualstudio.com/download
 
-> If you open VSCode's integrated terminal, it will look weird. Ignore this and wait until you've updated your `settings.json` based on the instructions below.
+> If you open VSCode's integrated terminal, it might look weird. Ignore this and wait until you've updated your `settings.json` based on the instructions below.
 
 ## Configure VSCode
 
