@@ -1,0 +1,19 @@
+{
+    "[vue]": {
+      "editor.defaultFormatter": "octref.vetur"
+    },
+    "[json]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "explorer.confirmDragAndDrop": false,
+    "workbench.iconTheme": "material-icon-theme",
+    "git.confirmSync": false,
+    "editor.inlineSuggest.enabled": true,
+    "editor.guides.bracketPairs": "active",
+    "svelte.enable-ts-plugin": true,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "rust-client.channel": "nightly-2022-02-22",
+    "editor.fontFamily": "'FiraCode-Retina', Menlo, Monaco, 'Courier New', monospace",
+    "editor.fontWeight": "450",
+    "editor.fontLigatures": true
+}
