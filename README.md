@@ -58,13 +58,15 @@ git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-m
 
 ### Apply configuration
 
-Overwrite `~/.zshrc` with `./.zshrc` in this repo 
+Overwrite `~/.zshrc` with `./.zshrc` in this repo
 
 ## Install fzf
 
 ```sh
 git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf && ~/.fzf/install
 ```
+
+## Quit iTerm2 and reopen
 
 ## Install VSCode
 
