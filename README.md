@@ -40,6 +40,10 @@ sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.
 git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
 ```
 
+### Configure powerlevel10k
+
+Copy `./.p10k.zsh` in this repo to `~/.p10k.zsh`
+
 ### Install zsh-syntax-highlighting
 
 ```sh
