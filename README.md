@@ -74,7 +74,7 @@ git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-m
 
 ## Update .zshrc
 
-Overwrite `~/.zshrc` with `./.zshrc` in this repo 
+Overwrite `~/.zshrc` with `./.zshrc` in this repo
 
 ## Install fzf
 
@@ -85,6 +85,8 @@ git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf && ~/.fzf/install
 1. To the question, "Do you want to enable fuzzy auto-completion", answer "y".
 1. To the question, "Do you want to enable key bindings", answer "y".
 1. To the question, "Do you want ot update your shell configuration files?", answer "n" because the fzf configuration is already present in the `~/.zshrc` you copied.
+
+## Quit iTerm2 and reopen
 
 ## Install VSCode
 
