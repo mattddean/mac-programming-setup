@@ -3,13 +3,20 @@
   "ignorePaths": [],
   "dictionaryDefinitions": [],
   "dictionaries": [],
-  "words": ["Fira", "iterm", "monaspace", "powerlevel", "quicktype"],
+  "words": [
+    "Fira",
+    "iterm",
+    "monaspace",
+    "powerlevel",
+    "quicktype"
+  ],
   "ignoreWords": [
     "dbaeumer",
     "eamodio",
     "esbenp",
     "googlecode",
     "humao",
+    "pkgx",
     "zhihaocui"
   ],
   "import": []
