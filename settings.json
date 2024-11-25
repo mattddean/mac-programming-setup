@@ -1,14 +1,70 @@
 {
-    "[json]": {
-      "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "explorer.confirmDragAndDrop": false,
-    "workbench.iconTheme": "material-icon-theme",
-    "git.confirmSync": false,
-    "editor.inlineSuggest.enabled": true,
-    "editor.guides.bracketPairs": "active",
-    "diffEditor.ignoreTrimWhitespace": false,
-    "editor.fontFamily": "'FiraCode-Retina', Menlo, Monaco, 'Courier New', monospace",
-    "editor.fontWeight": "450",
-    "editor.fontLigatures": true
+  "[vue]": {
+    "editor.defaultFormatter": "octref.vetur"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[python]": {
+    "editor.formatOnType": true
+  },
+  "[go]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "golang.go"
+  },
+  "gopls": {
+    "ui.semanticTokens": true
+  },
+  "editor.inlineSuggest.enabled": true,
+  "editor.guides.bracketPairs": "active",
+  "editor.fontSize": 14,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "editor.smoothScrolling": true,
+  "editor.tabSize": 2,
+  "editor.fontFamily": "'Monaspace Neon', monospace",
+  "editor.fontWeight": "450",
+  "editor.fontLigatures": "'calt', 'liga', 'ss01', 'ss02', 'ss03', 'ss04', 'ss05', 'ss06', 'ss07', 'ss08', 'ss09'",
+  "editor.inlayHints.enabled": "offUnlessPressed",
+  "explorer.confirmDragAndDrop": false,
+  "git.confirmSync": false,
+  "git.autorefresh": true,
+  "svelte.enable-ts-plugin": true,
+  "github.copilot.enable": {
+    "*": true,
+    "plaintext": false,
+    "markdown": true,
+    "scminput": false,
+    "yaml": false,
+    "typescript": true,
+    "json": false,
+    "properties": false,
+    "typescriptreact": true
+  },
+  "diffEditor.ignoreTrimWhitespace": false,
+  "rust-client.channel": "nightly-2022-02-22",
+  "githubPullRequests.createOnPublishBranch": "never",
+  "workbench.list.smoothScrolling": true,
+  "terminal.integrated.smoothScrolling": true,
+  "terminal.integrated.scrollback": 1000000,
+  "terminal.integrated.persistentSessionScrollback": 1000,
+  "cSpell.userWords": ["unvote", "unvotes", "upvote", "Upvoted"],
+  "emmet.showExpandedAbbreviation": "never",
+  "prisma.showPrismaDataPlatformNotification": false,
+  "github.copilot.editor.enableAutoCompletions": true,
+  "editor.accessibilitySupport": "off",
+  "cursor.cpp.disabledLanguages": [
+    "plaintext",
+    "scminput",
+    "yaml",
+    "json",
+    "properties"
+  ],
+  "workbench.colorTheme": "Default Dark Modern",
+  "editor.minimap.enabled": true,
+  "git.autofetch": true,
+  "gitlens.ai.experimental.model": "anthropic:claude-3-5-sonnet-20240620",
+  "debug.javascript.autoAttachFilter": "onlyWithFlag",
+  "gitlens.views.scm.grouped.default": "stashes",
+  "gitlens.views.stashes.files.layout": "list"
 }

@@ -1,21 +1,16 @@
 {
-    "version": "0.2",
-    "ignorePaths": [],
-    "dictionaryDefinitions": [],
-    "dictionaries": [],
-    "words": [
-        "Fira",
-        "iterm",
-        "powerlevel",
-        "quicktype"
-    ],
-    "ignoreWords": [
-        "dbaeumer",
-        "eamodio",
-        "esbenp",
-        "googlecode",
-        "humao",
-        "zhihaocui"
-    ],
-    "import": []
+  "version": "0.2",
+  "ignorePaths": [],
+  "dictionaryDefinitions": [],
+  "dictionaries": [],
+  "words": ["Fira", "iterm", "monaspace", "powerlevel", "quicktype"],
+  "ignoreWords": [
+    "dbaeumer",
+    "eamodio",
+    "esbenp",
+    "googlecode",
+    "humao",
+    "zhihaocui"
+  ],
+  "import": []
 }

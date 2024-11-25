@@ -8,11 +8,14 @@ xcode-select --install
 
 ## Clone this repository
 
-## Install FiraCode
+## Install Monaspace Font
 
-https://github.com/tonsky/FiraCode
+https://github.com/githubnext/monaspace
 
-> Unzip and double-click on each font in the tff directory to install them all
+```sh
+brew tap homebrew/cask-fonts
+brew install font-monaspace
+```
 
 ## Install iTerm2
 
@@ -21,14 +24,6 @@ https://iterm2.com/
 ## Configure iTerm2
 
 1. Go to iTerm2 Preferences -> General -> Preferences, check "Load preferences from a custom folder or URL", and Browse to the `com.googlecode.iterm2.plist` in this repo. Don't copy the file first. Just browse to this actual repository on your computer. Set "Save changes" to "When Quitting".
-
-## Install nvm
-
-```sh
-curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
-```
-
-> https://github.com/nvm-sh/nvm
 
 ## Configure zsh
 
