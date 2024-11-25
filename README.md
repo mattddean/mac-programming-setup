@@ -1,5 +1,13 @@
 # Matt's Mac Programming Setup
 
+## Immediately show/hide the MacOS Dock
+
+```sh
+defaults write com.apple.dock autohide-delay -int 0
+defaults write com.apple.dock autohide-time-modifier -int 0
+killall Dock
+```
+
 ## Install developer tools
 
 ```sh
