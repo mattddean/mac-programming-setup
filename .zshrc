@@ -5,8 +5,6 @@ if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]
   source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
 fi
 
-
-
 # oh-my-zsh
 export ZSH="$HOME/.oh-my-zsh"
 
@@ -62,3 +60,11 @@ export PATH="$HOME/.local/bin:$PATH"
 # aliases
 alias pm="pnpm"
 alias pk="pkgx"
+
+# pnpm
+export PNPM_HOME="/Users/mdean/Library/pnpm"
+case ":$PATH:" in
+  *":$PNPM_HOME:"*) ;;
+  *) export PATH="$PNPM_HOME:$PATH" ;;
+esac
+# pnpm end
