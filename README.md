@@ -14,6 +14,14 @@ killall Dock
 xcode-select --install
 ```
 
+## Install Homebrew
+
+```sh
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```
+
+> https://brew.sh/
+
 ## Clone this repository
 
 ## Install Monaspace Font
@@ -67,14 +75,6 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:
 git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
 ```
 
-## Install Homebrew
-
-```sh
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-```
-
-> https://brew.sh/
-
 ## Update .zshrc
 
 Overwrite `~/.zshrc` with `./.zshrc` in this repo
@@ -90,6 +90,13 @@ git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf && ~/.fzf/install
 1. To the question, "Do you want ot update your shell configuration files?", answer "n" because the fzf configuration is already present in the `~/.zshrc` you copied.
 
 ## Quit iTerm2 and reopen
+
+## Install pkgx and pkgm
+
+```sh
+brew install pkgx || curl https://pkgx.sh | sh
+brew install pkgxdev/made/pkgm || curl https://pkgx.sh | sh
+```
 
 ## Install VSCode
 
