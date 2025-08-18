@@ -105,6 +105,29 @@ brew install pkgx || curl https://pkgx.sh | sh
 brew install pkgxdev/made/pkgm || curl https://pkgx.sh | sh
 ```
 
+## Set up Docker (Colima depends on docker executable in PATH, so we'll fully install it using pkgm)
+
+```sh
+sudo pkgm install docker
+```
+
+## Install docker compose as a command and as a plugin
+
+> This will cause both `docker-compose` and `docker compose` to work.
+
+```sh
+sudo pkgm install docker-compose
+DOCKER_CONFIG=${DOCKER_CONFIG:-$HOME/.docker}
+mkdir -p $DOCKER_CONFIG/cli-plugins
+ln $(which docker-compose) $DOCKER_CONFIG/cli-plugins/
+```
+
+## Start Colima VM
+
+```sh
+pk colima start --vm-type=vz --vz-rosetta --cpu 1 --memory 1 --disk 100
+```
+
 ## Install VSCode
 
 https://code.visualstudio.com/download
