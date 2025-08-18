@@ -14,6 +14,13 @@ killall Dock
 xcode-select --install
 ```
 
+## Configure username and email for git commits
+
+```sh
+git config --global user.name "Matt Dean"
+git config --global user.email "mdean400@gmail.com"
+```
+
 ## Install Homebrew
 
 ```sh
