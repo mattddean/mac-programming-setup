@@ -61,6 +61,14 @@ export PATH="$HOME/.local/bin:$PATH"
 alias pm="pnpm"
 alias pk="pkgx"
 
+colima_start() {
+  # start colima
+  pk colima start --vm-type=vz --vz-rosetta --cpu 1 --memory 1 --disk 100
+  # symlink the colima docker socket path to the default docker socket path
+  # https://github.com/abiosoft/colima/blob/main/docs/FAQ.md#cannot-connect-to-the-docker-daemon-at-unixvarrundockersock-is-the-docker-daemon-running
+  sudo ln -sf $HOME/.colima/default/docker.sock /var/run/docker.sock
+}
+
 # pnpm
 export PNPM_HOME="/Users/mdean/Library/pnpm"
 case ":$PATH:" in
