@@ -19,7 +19,8 @@ xcode-select --install
 ```sh
 git config --global user.name "Matt Dean"
 git config --global user.email "mdean400@gmail.com"
-git config pull.rebase false
+git config --global pull.rebase false
+git config --global push.autoSetupRemote true
 ```
 
 ## Install Homebrew
